@@ -1,0 +1,126 @@
+/* Reset de estilos básicos */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos do Cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilos do Menu de Navegação */
+nav {
+    background-color: #222;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos do Carousel */
+#carousel {
+    margin-top: 20px;
+}
+
+/* Estilos da Sessão de Eventos */
+.events {
+    margin: 20px 0;
+}
+
+.event {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilos da Seção de Notícias */
+.tab-buttons {
+    display: flex;
+    width: 200px; /* Defina a largura desejada */
+}
+
+.tab-buttons button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100px; /* Defina a largura fixa desejada */
+    margin-right: 10px;
+    height: 40px; /* Altura fixa desejada */
+
+}
+
+.tab-buttons button:hover {
+    background-color: #555;
+}
+.news-tab {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.tab-buttons {
+    display: flex;
+}
+
+.tab-buttons button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.tab-buttons button:hover {
+    background-color: #555;
+}
+
+.tab-content-container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tab-content {
+    flex-basis: 100%;
+    display: none;
+}
+
+.tab-content img {
+    width: 100%;
+}
+
+.news-tab {
+    background-color: #f2f2f2; /* Cor de fundo cinza claro */
+    width: 100%; /* Preencher horizontalmente */
+    padding: 20px 0; /* Adicionar algum espaçamento interno conforme necessário */
+}
+/* Estilos da Seção de Contato */
+.contact {
+    margin: 20px 0;
+}
+
+/* Estilos do Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
