@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+}
+
+header {
+    background-color: #ff0000; /* Vermelho */
+    color: #ffffff; /* Branco */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #000000; /* Preto */
+    color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ffd700; /* Amarelo */
+    color: #000000;
+}
+
+section {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+#contact form label,
+#contact form textarea,
+#contact form input {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #0000ff; /* Azul */
+    color: #ffffff;
+}
