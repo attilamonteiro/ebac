@@ -33,6 +33,9 @@ nav a:hover {
 }
 
 /* Estilos do Carousel */
+.carousel-caption {
+    color: black; /* ou a cor desejada para o texto */
+  }
 #carousel {
     margin-top: 20px;
 }
